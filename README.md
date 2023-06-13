@@ -1,11 +1,11 @@
-About node-gyp
-==============
+About node-gyp-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/node-gyp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nodejs/node-gyp
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/node-gyp-feedstock/blob/main/LICENSE.txt)
 
 Summary: Node.js native addon build tool
 
@@ -27,13 +27,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_nodejs14</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12223&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/node-gyp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_nodejs16</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12223&branchName=main">
@@ -45,13 +38,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12223&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/node-gyp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_nodejs18" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_nodejs14</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12223&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/node-gyp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_nodejs14" alt="variant">
                 </a>
               </td>
             </tr><tr>
