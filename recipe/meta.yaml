@@ -1,5 +1,5 @@
 {% set name = "node-gyp" %}
-{% set version = "10.0.0" %}
+{% set version = "10.0.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
-  sha256: fb0a3516f0b697a4657683a9944af6661a76c537d614ac69718f491fdd2795db
+  sha256: ac80ea5a1e23e579a2cb2517d540196e07646959ba090267db29545ec091e451
 
 build:
   number: 0
