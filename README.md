@@ -55,20 +55,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_nodejs18</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12223&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/node-gyp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_nodejs18" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_nodejs20</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12223&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/node-gyp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_nodejs20" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_nodejs18</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12223&branchName=main">
