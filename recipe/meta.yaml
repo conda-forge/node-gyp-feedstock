@@ -10,13 +10,16 @@ source:
   sha256: ac80ea5a1e23e579a2cb2517d540196e07646959ba090267db29545ec091e451
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
+  build:
+    - nodejs
   host:
     - nodejs
-    - yarn <2
+    - pnpm
+    - pnpm-licenses
   run:
     - nodejs
 
