@@ -1,17 +1,20 @@
-{% set name = "node-gyp" %}
-{% set version = "11.2.0" %}
+schema_version: 1
+
+context:
+  name: node-gyp
+  version: 11.2.0
 
 package:
-  name: {{ name }}
-  version: {{ version }}
+  name: ${{ name }}
+  version: ${{ version }}
 
 source:
-  url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
+  url: https://registry.npmjs.org/${{ name }}/-/${{ name }}-${{ version }}.tgz
   sha256: 1d371b0558b1ba877a7ca52a21983d6d4d1051c73489d211d50ad8fc3ff487e2
 
 build:
   number: 1
-  skip: true  # [win]
+  skip: win
 
 requirements:
   build:
@@ -23,18 +26,19 @@ requirements:
   run:
     - nodejs
 
-test:
-  commands:
-    - node-gyp --help
+tests:
+  - script:
+      - node-gyp --help
 
 about:
-  home: https://github.com/nodejs/node-gyp
   license: MIT
   license_file:
     - LICENSE
     - ThirdPartyLicenses.txt
   summary: Node.js native addon build tool
+  homepage: https://github.com/nodejs/node-gyp
 
 extra:
   recipe-maintainers:
     - xhochy
+
