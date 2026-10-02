@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: node-gyp
-  version: "13.0.2"
+  version: "13.1.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/${{ name }}/-/${{ name }}-${{ version }}.tgz
-  sha256: 1b1524d914331bd01312729e31a828192d53af84e113dacb6e36afabb6c21a6d
+  sha256: 15663ca4944844139023390f057e86f1897d855959ea7e96f151d4873be8c71f
 
 build:
   number: 0
